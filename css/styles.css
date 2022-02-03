@@ -4047,7 +4047,7 @@ textarea.form-control-lg {
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
@@ -11356,6 +11356,7 @@ html {
   background-color: #3a3b66;
   border-bottom: 5px solid #662e68;
   background-image: linear-gradient(#3a3b66 40%, #1f1b24);
+  
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -11547,4 +11548,10 @@ html {
 
 .lead1 {
   text-decoration: none;
+}
+
+.port-item {
+  border: #1f1b24 solid 10px;
+  border-radius: 20px;
+  /* height: 100%; */
 }
