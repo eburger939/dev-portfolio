@@ -11436,13 +11436,33 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
-  margin-top: 10rem;
+  /* margin-top: 8rem; */
+  /* margin-bottom: 8rem; */
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
+
+.masthead-container {
+  /* position: relative;
+  padding: 20px;
+  height: 30rem; */
+}
+.hello-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
 .masthead .masthead-avatar {
-  width: 30rem;
+  /* width: 30rem; */
+  width: 75%;
+  /* height: 100%; */
+  /* position: absolute;
+  bottom: 0;    */
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+
 }
 
 @media (min-width: 992px) {
@@ -11456,6 +11476,21 @@ html {
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+}
+@media (max-width: 620px) {
+  .masthead .masthead-heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  .masthead .masthead-avatar {
+    display: none;
   }
 }
 
