@@ -11498,7 +11498,6 @@ html {
     font-size: 15px;
     line-height: 0.8rem;
   }
-}
 .masthead .masthead-avatar {
   /* width: 30rem; */
   width: 100%;
@@ -11507,7 +11506,7 @@ html {
   bottom: 0;    */
   margin-top: 0rem;
   margin-bottom: 8rem;
-
+}
 }
 
 .portfolio .portfolio-item {
