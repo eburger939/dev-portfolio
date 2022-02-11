@@ -598,6 +598,11 @@ progress {
   height: auto;
 }
 
+.img-fluid1 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11451,11 +11456,11 @@ html {
 
 .masthead .masthead-avatar {
   /* width: 30rem; */
-  width: 75%;
+  width: 65%;
   /* height: 100%; */
   /* position: absolute;
   bottom: 0;    */
-  margin-top: 8rem;
+  margin-top: 0rem;
   margin-bottom: 8rem;
 
 }
