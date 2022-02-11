@@ -11488,7 +11488,7 @@ html {
     line-height: 2rem;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 320px) {
   .masthead .masthead-avatar {
     display: none;
   }
