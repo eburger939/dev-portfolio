@@ -11488,14 +11488,15 @@ html {
     line-height: 2rem;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   .masthead .masthead-heading {
-    font-size: 20px;
+    margin-top: 0%;
+    font-size: 28px;
     line-height: 1.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 12px;
-    line-height: 0.5rem;
+    font-size: 15px;
+    line-height: 0.8rem;
   }
 }
 
