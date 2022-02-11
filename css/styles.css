@@ -11488,9 +11488,14 @@ html {
     line-height: 2rem;
   }
 }
-@media (max-width: 320px) {
-  .masthead .masthead-avatar {
-    display: none;
+@media (max-width: 420px) {
+  .masthead .masthead-heading {
+    font-size: 20px;
+    line-height: 1.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 12px;
+    line-height: 0.5rem;
   }
 }
 
